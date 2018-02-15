@@ -1,0 +1,7 @@
+-data '/Volumes/EHD2/TexturesProject/data/BSR/unsupervised/patches2_32_32' -modelDef '/Volumes/EHD2/TexturesProject/openface-master/models/openface/nn_new_32_32.def.lua' -cuda  -nEpochs 200 -epochSize 100 -imgDim 32 -peoplePerBatch 3 -testBatchSize 30 -testEpochSize 30 -nDonkeys 0
+
+-data '/home/ron/Downloads/BSDS500-master/patches' -modelDef '/home/ron/studies/project/texture2vec/models/openface/nn_new_32_32.def.lua' -nEpochs 800 -epochSize 100 -imgDim 32 -peoplePerBatch 3 -testBatchSize 30 -testEpochSize 30 -nDonkeys 0 -alpha 0.2 -saveInterval 50
+
+-data '/media/dov84d/EHD2/TexturesProject/data/FiveKHalfAndBSR16_16/patches2_16_16' -modelDef '/media/dov84d/EHD2/TexturesProject/openface-master/models/openface/nn_new_16_16.def.lua' -nEpochs 1600 -epochSize 100 -imgDim 16 -peoplePerBatch 3 -testBatchSize 30 -testEpochSize 30 -nDonkeys 0 -alpha 0.2 -saveInterval 50
+
+-data '/media/dov84d/EHD2/TexturesProject/data/Airplanes/patches2_16_16' -modelDef '/media/dov84d/EHD2/TexturesProject/openface-master/models/openface/nn_new_16_16.def.lua' -nEpochs 400 -epochSize 100 -imgDim 16 -peoplePerBatch 3 -testBatchSize 30 -testEpochSize 30 -nDonkeys 0 -alpha 0.2 -saveInterval 50 -retrain /media/dov84d/EHD2/TexturesProject/data/FiveKHalfAndBSR16_16/1600_epochs/model.t7
